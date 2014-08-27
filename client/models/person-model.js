@@ -2,9 +2,25 @@
 var AmpState = require('ampersand-state');
 
 module.exports = AmpState.extend({
-    idAttribute: 'firstName',
+    idAttribute: 'ssn',
     props: {
-        firstName: ['string'],
-        lastName: ['string']
+        ssn: {
+            type: 'string',
+            required: true,
+            allowNull: false,
+            setOnce: true
+        },
+        firstName: {
+            type: 'string',
+            required: true,
+            allowNull: false,
+            setOnce: true
+        },
+        lastName: {
+            type: 'string',
+            required: true,
+            allowNull: false,
+            setOnce: true
+        }
     }
 });

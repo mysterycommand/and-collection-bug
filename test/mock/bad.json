@@ -1,9 +1,17 @@
-[{
+[{},{
   "ssn": "123-45-6789",
   "firstName": "Matt",
+  "lastName": "Hayes"
+},{
+  "ssn": "123-45-6789",
+  "firstName": "Mark",
+  "lastName": "Hayes"
+},{
+  "ssn": "123-45-6789",
+  "firstName": "Andy",
   "lastName": "Hayes"
 },{
   "ssn": "987-65-4321",
   "firstName": "Ashley",
   "lastName": "Siebels"
-},{}]
+}]
