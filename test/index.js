@@ -10,6 +10,7 @@ var PersonCollection = require('../client/models/person-model-collection');
 
 describe('PersonModel', function() {
     it('should exist', function() {
+        /* jshint expr: true */
         expect(PersonModel).to.exist;
     });
 
@@ -20,11 +21,12 @@ describe('PersonModel', function() {
 
 describe('PersonCollection', function() {
     it('should exist', function() {
+        /* jshint expr: true */
         expect(PersonCollection).to.exist;
     });
 
     it.skip('should index by it\'s model\'s `idAttribute` if one is specified', function() {
         expect(new PersonCollection(goodJson)).to.have.property('length', 2);
-        expect(new PersonCollection(badJson)).to.have.property('length', 3);
+        expect(new PersonCollection(badJson)).to.have.property('length', 3); // should actually be 2, or throw, but see above
     });
 });
