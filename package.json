@@ -1,0 +1,19 @@
+{
+  "name": "and-collection-bug",
+  "version": "1.0.0",
+  "description": "Minimal demonstration of an Ampersand collection not honoring it's model's id attribute.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysterycommand/and-collection-bug.git"
+  },
+  "author": "Matt Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysterycommand/and-collection-bug/issues"
+  },
+  "homepage": "https://github.com/mysterycommand/and-collection-bug"
+}
