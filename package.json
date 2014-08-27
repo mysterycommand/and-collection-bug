@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mysterycommand/and-collection-bug/issues"
   },
-  "homepage": "https://github.com/mysterycommand/and-collection-bug"
+  "homepage": "https://github.com/mysterycommand/and-collection-bug",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
 }
