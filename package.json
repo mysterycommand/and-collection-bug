@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mysterycommand/and-collection-bug",
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.21.4"
+    "chai": "^1.9.1"
   }
 }
