@@ -14,7 +14,7 @@ describe('PersonModel', function() {
         expect(PersonModel).to.exist;
     });
 
-    it.skip('should throw when required props are not present', function() {
+    it('should throw when required props are not present', function() {
         expect(new PersonModel({})).to.throw(Error);
     });
 });
@@ -25,7 +25,7 @@ describe('PersonCollection', function() {
         expect(PersonCollection).to.exist;
     });
 
-    it.skip('should index by it\'s model\'s `idAttribute` if one is specified', function() {
+    it('should index by it\'s model\'s `idAttribute` if one is specified', function() {
         expect(new PersonCollection(goodJson)).to.have.property('length', 2);
         expect(new PersonCollection(badJson)).to.have.property('length', 3); // should actually be 2, or throw, but see above
     });
